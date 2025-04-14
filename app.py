@@ -14,6 +14,12 @@ page_bg_img = '''
         background-position: center;
         background-repeat: no-repeat;
     }
+    @media (max-width: 768px) {
+        .stApp {
+            background-size: cover;
+            background-position: top center;
+        }
+    }
 </style>
 '''
 st.markdown(page_bg_img, unsafe_allow_html=True)
