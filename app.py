@@ -12,7 +12,7 @@ page_bg_img = '''
         background-image: url("https://raw.githubusercontent.com/BKY1601/spamly/main/res/img/bg.png");
         background-attachment: fixed;
         background-size: cover;
-        background-position: center;
+        background-position: center center;
         background-repeat: no-repeat;
         min-height: 100vh;
     }
