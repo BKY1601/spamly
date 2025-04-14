@@ -10,17 +10,9 @@ page_bg_img = '''
 <style>
     .stApp {
         background-image: url("https://raw.githubusercontent.com/BKY1601/spamly/main/res/img/bg.png");
-        background-attachment: fixed;
         background-size: cover;
-        background-position: center center;
+        background-position: center;
         background-repeat: no-repeat;
-        min-height: 100vh;
-    }
-    @media (max-width: 768px) {
-        .stApp {
-            background-size: cover;
-            background-position: top center;
-        }
     }
 </style>
 '''
