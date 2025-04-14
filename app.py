@@ -9,26 +9,17 @@ vectorizer = joblib.load("pkl/tfidf_vectorizer.pkl")
 page_bg_img = '''
 <style>
     .stApp {
-        background-image: url("");
+        background-image: url("https://raw.githubusercontent.com/BKY1601/spamly/main/res/img/bg.png");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
-    .title {
-        font-family: 'Exo 2', sans-serif;
-        font-style: italic;
-        font-weight: bold;
-        color: white;
-        text-align: center;
-        font-size: 36px;
-        padding: 20px;
-        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
-    }
 </style>
 '''
+st.markdown(page_bg_img, unsafe_allow_html=True)
 # Title
-st.title("📩 SMS Spam Classifier")
-st.write("This app uses a machine learning model to detect spam messages.")
+st.markdown("<h1 style='text-align: center;'>Spamly 📩</h1>", unsafe_allow_html=True)
+st.write("Spamly app uses a machine learning model to detect spam messages.")
 
 # User input
 user_input = st.text_area("Enter your message:")
