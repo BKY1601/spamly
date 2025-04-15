@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score
 import joblib
 
 # 1. Load the dataset
-data = pd.read_csv("data/spam.csv", encoding="latin1", skiprows=1, names=["label", "text"])
+data = pd.read_csv("../data/spam.csv", encoding="latin1", skiprows=1, names=["label", "text"])
 
 # 🛠 Drop missing text values
 data = data.dropna(subset=["text"])
@@ -34,8 +34,8 @@ accuracy = accuracy_score(y_test, y_pred)
 print(f"✅ Model accuracy: {accuracy:.2f}")
 
 # 7. Save the model and vectorizer
-joblib.dump(model, "pkl/spam_classifier_model.pkl")
-joblib.dump(vectorizer, "pkl/tfidf_vectorizer.pkl")
+joblib.dump(model, "../pkl/spam_classifier_model.pkl")
+joblib.dump(vectorizer, "../pkl/tfidf_vectorizer.pkl")
 print("✅ Model and vectorizer saved as .pkl files!")
 
 # 8. Function to predict new message
@@ -45,5 +45,5 @@ def predict_message(msg):
     return "SPAM" if pred == 1 else "NOT SPAM"
 
 # Test the function
-print(predict_message("You’ve won a free lottery. Call now!"))
-print(predict_message("Hey, what’s the plan for tomorrow?"))
+#print(predict_message("Free prize awaits! Claim now"))
+#print(predict_message("Hey, what’s the plan for tomorrow?"))
