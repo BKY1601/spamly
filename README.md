@@ -28,8 +28,9 @@
 ## Project Structure
 `````
 ├── spam.csv # Dataset
-├── spam_model.pkl # Trained spam classifier model
-├── vectorizer.pkl # TF-IDF vectorizer
+├── sms_model.py # Model Script
+├── spam_classifier_model.pkl # Trained spam classifier model
+├── tfidf_vectorizer.pkl # TF-IDF vectorizer
 ├── app.py # Streamlit web application
 ├── requirements.txt # List of dependencies
 └── README.md # This file
