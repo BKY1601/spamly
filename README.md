@@ -75,7 +75,7 @@ Deploy online using platforms like Render or Hugging Face Spaces
 **Bipin Yadav**  
 📧 bipinyadav919@gmail.com  
 🔗 [LinkedIn](https://linkedin.com/in/bipin-yadav-jan16)  
-🔗 [GitHub](https://github.com/BKY1601)
+🔗 [GitHub](https://github.com/BKY1601)                                                                                                   
 🔗 [Live project Link](https://spamly.streamlit.app/)
 
 
