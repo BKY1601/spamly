@@ -23,20 +23,23 @@
 - Streamlit  
 - Pickle (for saving model and vectorizer)
 
+ ---------------------------
+
 ## Project Structure
+`````
 ├── spam.csv # Dataset
 ├── spam_model.pkl # Trained spam classifier model
 ├── vectorizer.pkl # TF-IDF vectorizer
 ├── app.py # Streamlit web application
 ├── requirements.txt # List of dependencies
 └── README.md # This file
-
+```````
 ---------------
 
 ## How to Run the Project
 
 1. **Clone the repository**
-```bash
+bash
 git clone https://github.com/yourusername/spamly.git
 cd spamly
 
