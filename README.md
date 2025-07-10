@@ -46,9 +46,10 @@ pip install -r requirements.txt
 3. **Run the Streamlit app**
 streamlit run app.py
 
-3. **Visit the app in your browser**
+4. **Visit the app in your browser**
 Default: http://localhost:8501
 
+------------
 
 📊 Sample Output
 You enter:
